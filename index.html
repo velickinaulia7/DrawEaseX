@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrawEaseX</title>
+
+    <!-- custom css style link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font link  -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    
+    <!-- favicon link -->
+    <link rel="icon" type="image/png" href="img/logo400.png">
+</head>
+
+<body>
+
+<!-- header section start -->
+<header class="header">
+    <div class="container header__container">
+        <a href="#" class="header__logo link logo">
+            <img src="img/logo400.png" alt="logo" width="40" height="40"> DrawEaseX: Create & Relax
+        </a>
+        <nav class="header__nav header-nav">
+            <ul class="header-nav__list">
+                <li class="header-nav__item">
+                    <a href="#" class="header-nav__link header-nav__link--contact link">
+                        Contact us
+                        <svg width="17" height="16" fill="none">
+                            <path fill="#fff" d="M5.274 2h5.118c.352 0 .655 0 .905.02.263.022.525.07.778.198a2 2 0 0 1 .874.874c.128.252.176.514.197.778q.006.063.009.13H6.5a2 2 0 0 0-2 2v6q0 .045.002.09l-1.043.51A.667.667 0 0 1 2.5 12V4.774c0-.351 0-.654.02-.904.022-.264.07-.526.198-.778a2 2 0 0 1 .874-.874c.252-.129.514-.176.778-.198.25-.02.553-.02.904-.02"></path>
+                            <path fill="#fff" d="M12.392 5.333H8.608c-.352 0-.655 0-.905.02-.263.022-.525.07-.778.198a2 2 0 0 0-.874.874 2 2 0 0 0-.197.778c-.02.25-.02.553-.02.905v1.784c0 .352 0 .655.02.905.021.263.069.525.197.778a2 2 0 0 0 .874.874c.253.128.515.176.778.197.25.02.553.02.905.02h3.246c.263 0 .315.003.36.011q.076.014.149.045c.042.019.086.045.305.191l1.462.975a.667.667 0 0 0 1.037-.555V8.108c0-.352 0-.655-.02-.905a2 2 0 0 0-.198-.778 2 2 0 0 0-.874-.874 2 2 0 0 0-.778-.197c-.25-.02-.553-.02-.905-.02"></path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <button class="mobile-menu__btn" type="button" aria-label="open mobile menu" aria-controls="mobile-menu" aria-expanded="false">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </button>
+    </div>
+</header>
+<!-- header section end -->
+
+<!-- contacts section start -->
+<section class="contacts">
+
+    <h2 class="heading"><span>Contact</span> Us</h2>
+
+    <h2 class="heading2">Please email us if you are having problems with the app, have any additional questions, or you would like to partially or completely delete your account or related data</h2>
+
+    <div class="row">
+
+
+        
+        <div class="img">
+            <img src="img/logo400.png" alt="Logo">
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="704ca13d-4fd5-46ce-bc61-85df257f4dcf">
+
+            <span>Your name</span>
+            <input type="text" name="name" class="box" required placeholder="Enter your name.." autocomplete="off">
+
+            <span>Your email</span>
+            <input type="email" name="email" class="box" required placeholder="Enter your email.." autocomplete="off">
+
+            <span>Send your message</span>
+            <textarea name="additional_info" class="box" placeholder="Enter additional information.." autocomplete="off"></textarea>
+
+            <input type="submit" value="Send" class="btn" name="send">
+
+        </form>
+
+    </div>
+
+</section>
+<!-- contacts section end -->
+
+</body>
+
+</html>
